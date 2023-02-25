@@ -3,33 +3,44 @@
   margin: 0;
 }
 
-.hero {
-  width: 80%;
-  height: 450px;
-  position: relative;
-  margin: 100px auto;
+.mainContent {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
 .btn-box {
   display: flex;
-  border-bottom: 1px solid #ccc;
   justify-content: center;
+  margin-top: 3em;
+  border-bottom: 1px solid #ccc;
 }
 
-.btn-box button {
+.tablinks {
   display: inline-flex;
-  background: transparent;
   border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  margin-right: 50px;
-  font-size: 20px;
-  font-weight: bold;
+  margin-left: 2em;
+  background-color: inherit;
+  font-size: 1.2rem;
 }
 
+.tablinks:hover {
+  color: red;
+}
+.tabContent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
 .icons {
-  margin-right: 5px;
-  width: 1.2em;
+  margin-right: 10px;
+  width: 1.5em;
   height: auto;
 }
