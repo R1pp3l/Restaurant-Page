@@ -6,7 +6,7 @@ export function setActiveButton(tabName) {
       tab.style.color = "red";
     } else {
       tab.classList.remove("active");
-      tab.style.color = "black";
+      tab.style.color = "#F5DEB3";
     }
   });
 }
