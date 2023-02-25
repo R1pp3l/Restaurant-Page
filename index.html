@@ -8,17 +8,26 @@
     <title>Restaurant Page</title>
   </head>
   <body>
-    <div class="hero">
+    <div class="mainContent">
       <div class="btn-box">
-        <button>
+        <button class="tablinks" data-tab="contentOne">
           <img src="home.png" alt="home icon" class="icons" /> Home
         </button>
-        <button>
+        <button class="tablinks" data-tab="contentTwo">
           <img src="menu.png" alt="menu icon" class="icons" /> Menu
         </button>
-        <button>
+        <button class="tablinks" data-tab="contentThree">
           <img src="user.png" alt="contact icon" class="icons" /> Contact
         </button>
+      </div>
+      <div class="tabContent" id="contentOne">
+        <h1>Home Section</h1>
+      </div>
+      <div class="tabContent" id="contentTwo">
+        <h1>Menu Section</h1>
+      </div>
+      <div class="tabContent" id="contentThree">
+        <h1>Contact Section</h1>
       </div>
     </div>
   </body>
