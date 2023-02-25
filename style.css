@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  width: 80%;
+  height: 450px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.btn-box {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+}
+
+.btn-box button {
+  display: inline-flex;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icons {
+  margin-right: 5px;
+  width: 1.2em;
+  height: auto;
+}
